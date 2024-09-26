@@ -1,0 +1,212 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+    nav{
+        display: flex;
+         justify-content: space-between;
+          align-items: center;
+   
+   
+   
+    }
+   nav ul{
+       display: flex;
+       justify-content: space-between;
+        align-items: center;
+        width: 50%;
+       margin-right: 15px;
+       list-style: none;
+       font-size: x-large;
+       
+   }    
+
+       
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+
+
+
+.container > div{
+    
+    height: 200px;
+    border: 1px white;
+    flex-direction: column;
+    font-size: x-large;
+    color: blue;
+    font-weight: bold;
+    
+
+}
+
+.container > div:nth-child(5)
+{
+    grid-column: span 3;
+}  
+.container > div:nth-child(7)
+{
+    grid-column: span 3;
+}
+
+.bg-1
+{
+  
+ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ44QEBgWQRST9l0xDD6blexi2wsGuE-PbH4w&usqp=CAU);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+.bg-2
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThyVfoOddt4a0D47qxsg1ZWVkWNg2VP65wd8ejNCUxu3Hr6OiYTJTeh5mZ&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-3
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1Xd1e7i9r8TPnTm1Asd4zTrHDo68LOhpj9w6eiqUE-fgLLnlrLSoAJ4&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-4 
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZjzugJFs4C-7SkcLBGk2GsZEYk81BIga6RrbbCQqUMchLnmPNYVRRqcg&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-5
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrFFEr9LU77SPj0AQ29OS53CBpWmSp1RHsXw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-6
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbPzliPd7QNkDcgGdyDAfjQV638fMJdHvciYxXPra4X3IKB947LLOvF7Y&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-7
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8sIw_f9eCC0gVdbtbmqDyBPPIC1Ay9MvyNXI5OR04mPwGAmn5r3rSAen1&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-8
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3zOrR3mJXbYvsEHQt16Gvqm93VtG581jxeZmuDXvCDulgkEXewacDzHh5&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-9
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgOQP4LSBUVZmtCYt436iGkOXYkJvfuYOeSaKcqMvUoz47PXsomIklYdw&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-10
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLCh1JfYVmYS1Jjx0lC-KBI6Kzg5KiCA005ZDpkKNDHGSxYnV98I4-40nZ&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-11
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlOnkGDRLFcSGrhgTAcJ-ehKLdfMyVz2_r-jCwiaXnAaPDEtwt5eQHZy4&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-12
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgZQ8bHd6t9pZU7fbNish7P2eqNXyrCeybZys3m5jSv6oDNG4-JiM26rY&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container >  :hover{
+    opacity: 0.9;
+    transform: scale(0.98);
+}
+
+ul >:hover{
+    opacity: 0.9;
+    transform: scale(0.98);
+}
+
+footer h1
+{
+    color: lightskyblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  body div a{
+    color: red;
+  }
+    
+ footer a
+ {
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blueviolet;
+    font-size: x-large;
+    margin-left: 20px;
+ } 
+  footer a >:hover{
+    opacity: 0.9;
+    transform: scale(0.98);
+  }  
+nav img{
+    margin-top: 10px;
+}
+  
+    
+    
+
+    
+  
+    
+
+    
+
+
+    
+
+    
+    
+
+
+    
+    
+
+
+
+    
+    
+ 
